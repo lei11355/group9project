@@ -62,7 +62,7 @@ function myFunction2() {
 
   console.log(searchTerm);
   fetch(
-    'http://universities.hipolabs.com/search?' + country
+    'http://universities.hipolabs.com/search?country=' + country
   )
     .then(function (response) {
       return response.json();
